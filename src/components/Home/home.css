@@ -1,0 +1,41 @@
+.linkProfil {
+    padding: 0;
+    margin: 2%;
+    display: flex;
+    justify-content: center; 
+    width: 25%;
+    border-radius: 100%;
+}
+.imgProfil {
+    display: block; 
+    width: 100%; 
+}
+.imgProfil:hover {
+    box-shadow: 0 5px 25px 2px #fc933c;
+}
+.imgProfil:active {
+    box-shadow: none;
+}
+@keyframes avance {
+    0% {
+        left: 25%; 
+    }
+    50% {
+        left: calc(25% + 3%); 
+    }
+    100% {
+        left: 25%; 
+    }
+}
+
+.imgDirection {
+    width: 15%;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    animation: avance 1.5s ease-in-out infinite; 
+}
+
+

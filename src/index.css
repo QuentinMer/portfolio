@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pixel';
+  src: url(./assets/font/pixel-sans.ttf);
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url(./assets/font/rubik-pixel.ttf);
+}
